@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vending Machine</title>
+  </head>
+  <body>
+    <main class="vending-app">
+      <div class="list__of--drink">
+        <div class="list-container">
+          <div class="menu">
+            <div class="menu-container">
+              <div class="menu-btn">
+                <button class="drink">Coca</button>
+                <button class="drink">Fanta</button>
+                <button class="drink">Sprite</button>
+                <button class="drink">Pepsi</button>
+                <button class="drink">Monster</button>
+                <button class="drink">Redbull</button>
+              </div>
+              <div class="weight-input">
+                <label>Amount of Bottles:</label>
+                <input class="amount-input" type="number" />
+              </div>
+              <div class="purchase-btn">
+                <button>Purchase</button>
+              </div>
+            </div>
+          </div>
+          <img src="vending-machine.png" />
+        </div>
+      </div>
+      <div class="the-receiption">
+        <div class="receiption-container">
+          <h1>Receiption</h1>
+          <p class="drink-type">Type of Drink:</p>
+          <p class="amount">Amount:</p>
+          <p class="total">Total:</p>
+        </div>
+        <p class="gratitude">Thank You!!!</p>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
